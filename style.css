@@ -1,0 +1,478 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    transition: all 0.5s ease-in;
+    scroll-behavior: smooth;
+    scroll-padding-top: 16vh;
+}
+html{
+    font-size: 100%;
+    overflow-x: hidden;
+}
+.header{
+    position: relative;
+    background-color:#0511fa;
+    display: flex;
+    height: 65px;
+    
+    
+
+    
+}
+.logo img{
+    width: 170%;
+    height: 80%;
+    margin-top: 10px;
+    float: left;
+    margin-left: 20px;
+}
+.navbar{
+    margin-left: 200px;
+    display: inline;
+    margin-top: 20px;
+
+}
+.navbar a{
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    color: aliceblue;
+    margin-left: 20px;
+
+   
+}
+.navbar a:hover{
+    color:yellow;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons a{
+    margin-bottom: 10px;
+    margin-left: 50px;
+
+    float: right;
+
+    color: aliceblue;
+
+} 
+.icons a:hover{
+    color:yellow;
+}
+.icons #menu-icon{
+    display: none;
+}
+
+.Homepage img{
+    width: 100%;
+    height: 500px;
+}
+.search-form{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 110%;
+    right: 10%;
+    width: 20rem;
+    height: 2rem;
+    background-color:aliceblue;
+    text-transform: none;
+
+}
+
+.search-form input{
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    padding: 1rem;
+    text-transform: 1.3rem;
+    color: var(--black);
+}
+.search-form label{
+color: var(--black);
+font-size: 1rem;
+padding-right: 1.3rem;
+cursor: pointer;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 88vh;
+    margin-top: 0vh;
+    background-color: aqua;
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+
+}
+.home .hero{
+    width: 50rem;
+}
+.home .hero h3{
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+.home .hero p{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.5rem;
+    padding: 0.5rem 0;
+    color: aliceblue;
+
+}
+
+.btn{
+    display: inline-block;
+    background-color:rgb(255, 47, 0);
+    margin-left: 20px;
+    margin-bottom:30px;
+    align-items: center;
+    color: #0a0909;
+    font-size: 1.5rem;
+    padding: 0.3rem 0.3rem;
+
+    margin-top: 1rem;
+    cursor: pointer;
+
+}
+
+#Wrapper{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(20rem,1.5rem)) ;
+    padding-bottom: 20px;
+
+}
+#cakes #Wrapper .cake-card{
+    background-color: rgb(168, 221, 221);
+    width: 80%;
+    height: 90%;
+    padding: 1rem 1rem;
+    text-align: center;
+    
+}
+.cake-card{
+    text-align: center;
+    margin-left: 70px;
+    
+}
+.cake-card img{
+    width: 80%;
+    margin-top: 20px;
+}
+
+.cake-card .price{
+    font-size: 1rem;
+}
+
+
+.btn:hover{
+    letter-spacing: 0.1rem;
+    background-color: rgb(0, 255, 76);
+}
+.title{
+    text-align: center;
+    color: #e81e1e;
+    text-transform: uppercase;
+    padding-bottom: 3rem;
+    font-size: 3rem;
+    margin-top: 20px;
+}
+.title span{
+    color: var(#00c9a5);
+}
+.title:hover{
+    color: #00c957;
+}
+.cake-card .price span{
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: line-through;
+
+}
+
+#cakes #Wrapper .cake-card:hover{
+    transform:scaleY(1.1);
+    background-color: #918e8e;
+}
+.Wrapper{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(20rem,1.5rem)) ;
+    padding-bottom: 20px;
+
+}
+#cheesecakes .Wrapper .cheese-card{
+    background-color:#eac7c7;
+    width: 90%;
+    height: 100%;
+    padding: 1rem 1rem;
+    text-align: center;
+    
+}
+#cheesecakes .Wrapper .cheese-card:hover{
+    transform: scaleY(1.1);
+    background-color: #7b7070;
+
+}
+
+
+
+
+
+#cheesecakes .Wrapper .cheese-card .icons{
+    margin-right: 35px;
+    align-items: center;
+    justify-content: center;
+}
+.cheese-cakes .Wrapper .cheese-card .icons a:hover{
+    color: #00c911;
+    transition: o.5s;
+}
+.cheese-card{
+    text-align: center;
+    margin-left: 70px;
+    
+}
+.cheese-card img{
+    width: 80%;
+    margin-top: 40px;
+}
+
+.cheese-card .price{
+    font-size: 1rem;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.cheese-card .stars{
+    padding: 15px;
+    color:rgb(46, 185, 185);
+    ;
+}
+
+.title{
+    text-align: center;
+    color: #e81e1e;
+    text-transform: uppercase;
+    padding-bottom: 3rem;
+    font-size: 3rem;
+    margin-top: 20px;
+}
+.title span{
+    color: var(#00c9a5);
+}
+.title:hover{
+    color: #00c957;
+}
+.cheese-card .price span{
+    color: #eb1212;
+    padding: 10px;
+    text-decoration: line-through;
+
+}
+.Wrapper1{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(25rem,1.5rem)) ;
+    padding-bottom: 20px;
+
+}
+.new-arrivals .Wrapper1 .card{
+    background-color:#ffdca9;
+    border:var(--white);
+    
+ 
+    
+}
+.card{
+    text-align: center;
+    margin-left: 70px;
+    
+}
+
+.new-arrivals .Wrapper1 .card .content a{
+    color:blue;
+    font-size: 1.5rem;
+    margin-top: 5px;
+
+    
+
+}
+.new-arrivals .Wrapper1 .card .content p{
+    color:rgb(55, 47, 47);
+    margin-top: 10px;
+    padding: 1rem 1rem;
+
+
+}
+
+.btn{
+    transform: scaleY(1);
+    margin-right: 20px;
+
+}
+.btn:hover{
+    letter-spacing: 0.1rem;
+    background-color: rgb(0, 255, 76);
+    transform: scaleY(1);
+    transition: 1s ease-out;
+
+}
+.title{
+    text-align: center;
+    color: #e81e1e;
+    text-transform: uppercase;
+    padding-bottom: 3rem;
+    font-size: 3rem;
+    margin-top: 20px;
+}
+.title span{
+    color: var(#00c9a5);
+}
+.title:hover{
+    color: #00c957;
+}
+
+.new-arrivals .Wrapper1 .card .image1{
+    width: 100%;
+}
+.new-arrivals .Wrapper1 .card .image1 img{
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+
+}
+.new-arrivals .Wrapper1 .card:hover{
+    transform:scaleY(1.1);
+    transition: 0.5s ease-in;
+}
+.About .container{
+    display: flex;
+    justify-content: center;
+    background-color: #0a0909;
+    width: 90%;
+    margin-left: 65px;
+}
+
+.About .container .content{
+    padding: 1rem;
+}
+
+
+
+.About .container .content h2{
+    font-size: 2.5rem;
+    color: #17ec1e;
+    padding: 1.2rem 0;
+    margin-left: 40px;
+
+}
+.About .container .content p{
+    font-size: 1rem;
+    color: #fff;
+    padding: 1.2rem 0;
+
+}
+.About .btn{
+    margin-left: 200px;
+    transition: 1s ease-in-out;
+    background-color: #17ec1e;
+}
+.btn:hover{
+    background-color:aqua;
+}
+.Wrapper2{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(25rem,1.5rem)) ;
+    padding-bottom: 20px;
+
+}
+
+.Review-card{
+    text-align: center;
+    margin-left: 110px;
+    
+}
+.Review .Wrapper2 .Review-card{
+    text-align: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+}
+.Review .Wrapper2 .Review-card img{
+    height: 4rem;
+    margin-top: 20px;
+}
+
+.Review .Wrapper2 .Review-card p{
+    color: gray;
+}
+.Review .Wrapper2 .Review-card:hover p{
+    color: rgb(9, 8, 8);
+
+}
+.Review .Wrapper2 .Review-card .customer{
+    height: 7rem;
+    width: 7rem;
+    object-fit:cover ;
+    border-radius: 50%;
+}
+.Review .Wrapper2 .Review-card:hover.customer{
+    transform: scaleY(1);
+}
+.stars1{
+    color:rgb(46, 185, 185);
+    margin-top: 20px;
+}
+.contents{
+    background-color: #0a0909;
+}
+.contents iframe{
+    width: 40%;
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.contact form {
+    width: 36%;
+    margin: 0px auto;
+    float: right;
+    margin-right: 20%;
+}
+.contact input,
+textarea {
+    width: 70%;
+    float: right;
+    margin-top: 20px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #a1a1a1;
+}
+.contact textarea {
+    height: 50px;
+}
+.contact button {
+    width: 20%;
+    margin-left: 250px;
+    float: left;
+    margin-top: 20px;
+    height: 40px;
+    padding: 10px;
+    background: #ffbf35;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+}
+
+
+    
